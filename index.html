@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+    <link rel="shortcut icon" type="imagex/png" href="img/octocat-2.png">
+</head>
+
+<body>
+    <div class="container">
+    <div class="menu">
+        <ul>
+            <li><a href="#inicial">Inicial</a></li>
+            <li><a href="#gitHub">GitHub</a></li>
+            <li><a href="#rotina">Comando padrão</a></li>
+            <li><a href="#branch">Branch</a></li>
+            
+        </ul>
+    </div>
+    
+    <div class="conteudo">
+        <h1><a name="inicial">Aprendendo a usar o GIT!</a></h1>
+        <p><b>GIT é diferente do GitHub.</b></p>
+        <h2>Git init</h2>
+        Cria um novo repositório para que seja gerada novas versões
+        <hr>
+        <br />
+        <h2>Git add</h2>
+        adiciona arquivos na area de stage, que é um armazenamento antes do commit
+        <hr>
+        <br />
+        <h2>Git commit</h2>
+        Grava as alterações que estão no stage e gera uma versão
+        <hr>
+        <br />
+        <h2>Git status</h2>
+        Verifica o status atual do repositório, do que esta aguardando add e commit
+        <hr>
+        <br />
+        <h2>Git log</h2>
+        Mostra todo o histórico de commit dado no projeto
+        <hr>
+        <br />
+        <h2>Git checkout [numero do commit (ou) nome de uma branch] </h2>
+        Comando para navegação de entre commits e branchs
+        <hr>
+        <br />
+        <h2>Git checkout -b [nome da nova branch]</h2>
+        Criação de uma nova branch
+        <hr>
+        <br />
+        <h2>Git Branch</h2>
+        Visualização de todas as branchs criadas
+        <hr>
+        <br />
+        <h2 name="inicial">Git Merger</h2>
+        Integração de Branch em uma master
+        <hr>
+        <br />
+        *Branch | *Merge | *Master\Main | *Commit | *Stage
+        <h1><a name="gitHub">Subindo para o GitHub</a></h1>
+        <h2>git remote add origin [repositorio remoto]</h2>
+        Será cadastrado a url do GitHub como padrão do origin para subir para a plataforma GitHub
+        <hr>
+        <br />
+        <h2>git -M main (opcional)</h2>
+        Atualização da branch principal
+        <hr>
+        <br />
+        <h2>Git pull</h2>
+        Sincronização com os arquivos que já estão em nuvem.
+        <hr>
+        <br />
+        <h2>Git push -u origin main</h2>
+        Comando para mandar os arquivos para o GitHub
+        <hr>
+        <br />
+        <h2>git remote set-url origin [repositorio]</h2>
+        Caso precise alterar a origin
+        <hr>
+        <br />
+        <h1><a name="rotina">Comandos já com a configuração realizada</a></h1>
+        Após uma mundança, faz <b>git add .</b>, <b>git commit -m "mensagem"</b>, <b>git push</b>
+    </div>
+</div>
+</body>
+
+</html>
